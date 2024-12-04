@@ -3,8 +3,6 @@
 
 ## Motivation
 
-## Funding
-
 ## Research Directions
 | Project | Link to Github Repository |
 | ------ | ------ |
