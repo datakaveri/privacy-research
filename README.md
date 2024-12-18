@@ -1,15 +1,13 @@
 # CDPG Privacy Research
 ## _A collection of the privacy-related research work undertaken under the purview of the Center of Data for Public Good_
 
-## Motivation
-As an entity that works with large levels
 ## Research Directions
 | Project | Link to Github Repository |
 | ------ | ------ |
 | Secure Multi-Party Computation Extensions| [datakaveri/iudx-MOTION2NX][smpc] |
-| Confidential Computing | [plugins/github/README.md][PlGh] |
+| Confidential Computing | |
 | Anonymisation Pipeline | [datakaveri/differential-privacy][anonpipe] |
-| Carbyne Stack Extensions | [plugins/onedrive/README.md][PlOd] |
+| Carbyne Stack Extensions |  |
 | Blockchain-based Payments | [datakaveri/crypto-payment-gateway-poc][blockchain] |
 
 ### Secure Multi-Party Computation Extensions
@@ -62,16 +60,28 @@ Below are the works that have been peer-reviewed.
 
 * N. Chakraborty, A. Sharma, J. Dutta. H. D. Kumar, "Privacy-Preserving Data Quality Assessment for Time-Series IoT Sensors," 2024 IEEE International Conference on Internet of Things and Intelligence Systems (IoTaIS) - Applications and Services Track, Bandung, Indonesia, Accepted - Pending Publication.
 ```Abstract: This paper proposes a novel framework for automated, objective, and privacy-preserving data quality assessment of time-series data from IoT sensors deployed in smart cities. We leverage custom, autonomously computable metrics that parameterise the temporal performance and adherence to a declarative schema document to achieve objectivity. Additionally, we utilise a trusted execution environment to create a "data-blind" model that ensures individual privacy, eliminates assessee bias, and enhances adaptability across data types. This paper describes this data quality assessment methodology for IoT sensors, emphasising its relevance within the smart-city context while addressing the growing need for privacy in the face of extensive data collection practices.```
-[Read The Paper][chakraborty_et_al]
+[Read The Paper][chakraborty_et_al_iotais]
 
-* V. Walunj, V. Rajaraman, J. Dutta, A. Sharma, “Integrating Crypto-Based Payment Systems for Data Marketplaces: Enhancing Efficiency, Security, and User Autonomy”, 20th International Conference on Information Systems Security (ICISS), LNMIIT, Jaipur, India, 2024. Accepted - Pending Publication.
+* V. Walunj, V. Rajaraman, J. Dutta, A. Sharma, “Integrating Crypto-Based Payment Systems for Data Marketplaces: Enhancing Efficiency, Security, and User Autonomy”, 20th International Conference on Information Systems Security (ICISS), Jaipur, India, 2024. Accepted - Pending Publication.
 ```Abstract: Data exchanges as Digital Public Infrastructures drive data-driven economies by enhancing efficiency, enabling revenue streams, and facilitating data monetization. This work explores integrating crypto-based payments into platforms like IUDX and ADeX, offering benefits such as enhanced security, lower fees, and decentralized control. Key focus areas include crypto gateways, smart contracts, and wallet integration. The study highlights challenges like regulation and scalability while proposing a secure, efficient ecosystem to advance the data economy.```
 [Read The Paper][walunj_et_al]
 
+* H. Kallamadi, R. Burra, S. Mittal, S. Sharma, A. Venkatesh, A. Tandon, "Efficient, Scalable and Secure Image Inference using Convolutional Neural Networks", 4th International Conference on Network Security and Blockchain Technology (ICNSBT), Haldia, India, 2025. Accepted - Pending Publication.
+```Abstract: This work contributes towards the development of an efficient and scalable open-source Secure Multi-Party Computation (SMPC) protocol on machines with moderate computational resources. We use the ABY2.0 SMPC protocol implemented on the C++ based MOTION2NX framework for secure convolutional neural network (CNN) inference application with semi-honest security. Our list of contributions are as follows. Firstly, we enhance MOTION2NX by providing a tensorized version of several primitive functions including the Hadamard product, indicator function and argmax function. Secondly, we adapt an existing Helper node algorithm, working in tandem with the ABY2.0 protocol, for efficient convolution computation to reduce execution time and RAM usage. Thirdly, we also present a novel splitting algorithm that divides the computations at each CNN layer into multiple configurable chunks. This novel splitting algorithm, providing significant reduction in RAM usage, is of independent interest and is applicable to general SMPC protocols.```
+[Read The Paper][kallamadi_et_al]
+
+* V. A. Rameshwar, A. Tandon, and A. Sharma, "Optimal Tree-Based Mechanisms for Differentially Private Approximate CDFs", 17th International Conference on COMmunication Systems & NETworkS (COMSNETS) - Cyber Security and Privacy Workshop, Bengaluru, India, 2025. Accepted - Pending Publication.
+```Abstract: This paper considers the epsilon-differentially private (DP) release of an approximate cumulative distribution function (CDF) of the samples in a dataset. We assume that the true (approximate) CDF is obtained after lumping the data samples into a fixed number K of bins. In this work, we extend the well-known binary tree mechanism to the class of level-uniform tree-based mechanisms and identify epsilon-DP mechanisms that have a small l2-error. We identify optimal or close-to-optimal tree structures when either of the parameters, which are the branching factors or the privacy budgets at each tree level, are given, and when the algorithm designer is free to choose both sets of parameters. Interestingly, when we allow the branching factors to take on real values, under certain mild restrictions, the optimal level-uniform tree-based mechanism is obtained by choosing equal branching factors independent of K, and equal privacy budgets at all levels.```
+[Read The Paper][rameshwar_et_al_comsnets]
+
+* N. Chakraborty, A. Tandon, K. Reddy, K. Kirpekar, B. Robert, H. Kumar, A. Venkatesh, A. Sharma, "Building a Privacy Web with SPIDEr - Secure Pipeline for Information De-Identification with End-to-End Encryption", 17th International Conference on COMmunication Systems & NETworkS (COMSNETS) - Demos and Exhibits, Bengaluru, India, 2025. Accepted - Pending Publication.
+``` Abstract: Data de-identification makes it possible to glean insights from data while preserving user privacy. The use of Trusted Execution Environments (TEEs) allow for the execution of de-identification applications on the cloud without the need for a user to trust the third-party application provider. In this paper, we present SPIDEr - Secure Pipeline for Information De-Identification with End-to-End Encryption, our implementation of an end-to-end encrypted data de-identification pipeline. SPIDEr supports classical anonymisation techniques such as suppression, pseudonymisation, generalisation, and aggregation, as well as techniques that offer a formal privacy guarantee such as k-anonymisation and differential privacy. To enable scalability and improve performance on constrained TEE hardware, we enable batch processing of data for differential privacy computations. We present our design of the control flows for end-to-end secure execution of de-identification operations within a TEE. As part of the control flow for running SPIDEr within the TEE, we perform attestation - a process that verifies that the software binaries were properly instantiated on a known, trusted platform.```
+[Read The Paper][chakraborty_et_al_comsnets]
+
 ### Workshop Posters
 
-* V. A. Rameshwar, A. Tandon, and A. Sharma, "User-Level Differentially Private Mean Estimation for Real-World Datasets," in the ISIT 2024 Workshop on Information-Theoretic Methods for Trustworthy Machine Learning (IT-TML). ```Short precis: In this work, we provide rigorous theoretical justifications for the performance trends of well-known clipping-based algorithms on real-world ITMS and i.i.d. synthetic datasets. An important contribution of this work is the formalization and explicit computation of the "worst-case estimation error" incurred by a canonical user-level differentially private algorithm for mean estimation, which clips the number of contributions of users in an attempt to increase the accuracy of reconstruction.```
-[Read The Paper][rameshwar_et_al]
+* V. A. Rameshwar, A. Tandon, and A. Sharma, "User-Level Differentially Private Mean Estimation for Real-World Datasets," 2024 IEEE International Symposium on Information Theory (ISIT) - Workshop on Information-Theoretic Methods for Trustworthy Machine Learning (IT-TML). ```Short precis: In this work, we provide rigorous theoretical justifications for the performance trends of well-known clipping-based algorithms on real-world ITMS and i.i.d. synthetic datasets. An important contribution of this work is the formalization and explicit computation of the "worst-case estimation error" incurred by a canonical user-level differentially private algorithm for mean estimation, which clips the number of contributions of users in an attempt to increase the accuracy of reconstruction.```
+[Read The Paper][rameshwar_et_al_isit_ititml]
 
 ## License
 
@@ -90,10 +100,12 @@ Unless required by applicable law or agreed to in writing, software distributed 
    [blockchain]: <https://github.com/datakaveri/crypto-payment-gateway-poc>
    
    
-   [burra_et_al]: https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/COMSNET24_burra_et_al.pdf
-   [chakraborty_et_al]: https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/IOTAIS24_chakraborty_et_al.pdf
-   [walunj_et_al]: https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/ICISS24_walunj_et_al.pdf
-   [gupta_et_al]: https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/SPCOM24_gupta_et_al.pdf
-   [rameshwar_et_al]: https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/ISIT24-ITML_rameshwar_et_al.pdf
-   
+   [burra_et_al]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/COMSNET24_burra_et_al.pdf
+   [chakraborty_et_al_iotais]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/IOTAIS24_chakraborty_et_al.pdf
+   [walunj_et_al]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/ICISS24_walunj_et_al.pdf
+   [gupta_et_al]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/SPCOM24_gupta_et_al.pdf
+   [rameshwar_et_al_isit_ititml]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/ISIT24-ITML_rameshwar_et_al.pdf
+   [kallamadi_et_al]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/ICNSBT25_kallamadi_et_al.pdf
+   [rameshwar_et_al_comsnets]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_CSP_rameshwar_et_al.pdf
+   [chakraborty_et_al_comsnets]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_D%26E_chakraborty_et_al.pdf
    
