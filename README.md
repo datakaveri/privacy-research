@@ -2,9 +2,7 @@
 ## _A collection of the privacy-related research work undertaken under the purview of the Center of Data for Public Good_
 
 ## Motivation
-
-## Funding
-
+As an entity that works with large levels
 ## Research Directions
 | Project | Link to Github Repository |
 | ------ | ------ |
