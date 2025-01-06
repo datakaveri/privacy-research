@@ -11,6 +11,9 @@
 | Blockchain-based Payments | [datakaveri/crypto-payment-gateway-poc][blockchain] |
 
 ### Secure Multi-Party Computation Extensions
+Secure Multiparty Computation (SMPC) is a cryptographic technique that enables multiple parties to jointly compute a function over their private inputs while keeping those inputs confidential. It ensures that no party learns anything about others' inputs beyond what can be inferred from the output. SMPC is widely used in privacy-preserving applications, such as secure data analysis, voting systems, and federated learning. It relies on cryptographic primitives like secret sharing, homomorphic encryption, and oblivious transfer. 
+
+We applied SMPC to an image inference task involving a machine learning model, ensuring that both the image provider and model provider keep their inputs private. This application was implemented using ABY2.0 on the MOTION2NX framework. To enhance performance, we designed algorithms to reduce execution time and memory consumption. Additionally, we created Docker images with all necessary dependencies and binaries to streamline the deployment of the end-to-end application on cloud machines.
 
 ### Confidential Computing
 In the changing world of data processing shifting to the cloud, a key question arises: How do we make sure our shared data stays secure and confidential in third-party managed cloud environments? How can different parties having sensitive data collaborate to create value without compromising?
