@@ -1,6 +1,12 @@
 # CDPG Privacy Research
-## _A collection of the privacy-related research work undertaken under the purview of the Center of Data for Public Good_
+## Security and Privacy for Data Exchanges
+This 4-year project contains a set of Research & Development sub-projects with the unifying theme of data security and privacy for the Indian context. The project has created infrastructure and capabilities enhancing data exchange, especially in cases where personal and sensitive information are present.
 
+The overall project contains 5 sub-themes - Secure Enclaves, Differential Privacy, Consent management, Federated Learning, and Secure Multi-party Compute - carried out in collaboration with leading researchers from IISc and IIIT-B. The learnings and knowledge from these have been engaged into prototyping, experimentation and digital public infrastructure (DPI) by CDPG, building on and extending the IUDX approach to cases where sensitive and private data are present.
+
+The work under this project will drive value creation across domains, and will enable and accelerate the the creation of public good in agriculture, healthcare, finance, policy and other domains where privacy concerns arise.
+
+More information about this effort can be found in this recent news article in Digital First magazine.
 ## Research Directions
 | Project | Link to Github Repository |
 | ------ | ------ |
