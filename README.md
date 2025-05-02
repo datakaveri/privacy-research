@@ -88,6 +88,7 @@ Below are the works that have been peer-reviewed.
 [Read The Paper][chakraborty_et_al_comsnets]
 
 * V. A. Rameshwar, A. Tandon, and A. Sharma, "Improving the Privacy Loss Under User-Level DP Composition for Fixed Estimation Error", 2025 IEEE International Symposium on Information Theory (ISIT). ```Abstract: This paper considers the private release of statistics of several disjoint subsets of a datasets, under data heterogeneity, where different users contribute different numbers of samples. In particular, we consider the $\epsilon$-differentially private release of sample means and variances of sample values in disjoint subsets of a dataset, assuming that the number of contributions of each user. in each subset is known. Our main contribution is an iterative algorithm, based on suppressing user contributions, which seeks to reduce the overall privacy loss budget under a canonical Laplace mechanism, while not increasing the worst estimation error among the subsets. Important components of this analysis are our analytical characterizations of the sensitivities and the worst-case bias errors of estimators of the sample mean and variance, which are obtained by arbitrarily clipping or suppressing user contributions. We demonstrate improvements in the privacy loss degradation factor, for fixed worst-case estimation error, on real-world and synthetic datasets.```Accepted - pending presentation and publication.
+[Read the Paper][rameshwar_et_al_isit25]
 
 ### Workshop Posters
 
@@ -118,5 +119,6 @@ Unless required by applicable law or agreed to in writing, software distributed 
    [rameshwar_et_al_isit_ititml]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/ISIT24-ITML_rameshwar_et_al.pdf
    [kallamadi_et_al]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/ICNSBT25_kallamadi_et_al.pdf
    [rameshwar_et_al_comsnets]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_CSP_rameshwar_et_al.pdf
+   [rameshwar_et_al_isit25]:https://github.com/datakaveri/privacy-research/blob/706d36571b64c15cec25ab4ef89037619df9bd82/files/ISIT25_rameshwar_et_al.pdf
    [chakraborty_et_al_comsnets]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_D%26E_chakraborty_et_al.pdf
    
