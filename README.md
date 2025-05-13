@@ -124,5 +124,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
    [rameshwar_et_al_comsnets]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_CSP_rameshwar_et_al.pdf
    [rameshwar_et_al_isit25]:https://github.com/datakaveri/privacy-research/blob/706d36571b64c15cec25ab4ef89037619df9bd82/files/ISIT25_rameshwar_et_al.pdf
    [chakraborty_et_al_comsnets]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_D%26E_chakraborty_et_al.pdf
-   [reddy_et_al_icccnt25]:https://github.com/datakaveri/privacy-research/blob/4f4fc5601b7f6cd74fc84d691d32e2a13c7d01da/files/COMSNETS25_D%26E_chakraborty_et_al.pdf
+   [reddy_et_al_icccnt25]:https://github.com/datakaveri/privacy-research/blob/beb58c05ac77612becbf2dbd8b69804181b2006d/files/ICCCNT25_reddy_et_al.pdf
    
