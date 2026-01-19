@@ -55,7 +55,7 @@ We offer this application in conjunction with a Trusted Execution Environment to
 To make this codebase open-source and allow people to use the modules of the pipeline on their own datasets, we also offer the code as a python package that can be installed using pip - found here[link].
 
 ### Differential Privacy
-Additional work on differential privacy can be found here[dpLink].
+Additional work on differential privacy can be found [here][dpLink].
 
 ## Peer-Reviewed Papers
 
