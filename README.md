@@ -54,6 +54,9 @@ We offer this application in conjunction with a Trusted Execution Environment to
 
 To make this codebase open-source and allow people to use the modules of the pipeline on their own datasets, we also offer the code as a python package that can be installed using pip - found here[link].
 
+### Differential Privacy
+Additional work on differential privacy can be found here[dpLink].
+
 ## Peer-Reviewed Papers
 
 Below are the works that have been peer-reviewed.
@@ -116,6 +119,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
    [SMPC]: https://github.com/datakaveri/iudx-MOTION2NX
    [AnonPipe]: <https://github.com/datakaveri/differential-privacy>
    [blockchain]: <https://github.com/datakaveri/crypto-payment-gateway-poc>
+   [dpLink]: https://github.com/datakaveri/privacy-research/blob/095ac152d2b9d33cd846d19344ba2b304569c22e/files/2026.01_Intern%20Documentation%20-%20Security%20and%20Privacy%20for%20Smart%20Cities.pdf
    
    
    [burra_et_al]:https://github.com/datakaveri/privacy-research/blob/298c970a61455829a3bf0b5e4ff5f3759aa25e4e/files/COMSNET24_burra_et_al.pdf
